@@ -1,0 +1,529 @@
+{
+  "tenantId": "bdf0104c-0abf-45b1-bfb3-ca27784a1b34",
+  "mailbox": "manchana.ramakrishna@deviceniq.com",
+  "exportedAt": "2026-06-27T23:38:33.653Z",
+  "folders": [
+    {
+      "name": "009-atlassian",
+      "id": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLHAAA=",
+      "parentFolderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AAAAAAEIAAA="
+    },
+    {
+      "name": "009-aws",
+      "id": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLIAAA=",
+      "parentFolderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AAAAAAEIAAA="
+    },
+    {
+      "name": "009-azure",
+      "id": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLMAAA=",
+      "parentFolderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AAAAAAEIAAA="
+    },
+    {
+      "name": "009-figma",
+      "id": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLFAAA=",
+      "parentFolderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AAAAAAEIAAA="
+    },
+    {
+      "name": "009-github",
+      "id": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLJAAA=",
+      "parentFolderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AAAAAAEIAAA="
+    },
+    {
+      "name": "009-godadddy",
+      "id": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADONHhkAAA=",
+      "parentFolderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AAAAAAEIAAA="
+    },
+    {
+      "name": "009-godaddy",
+      "id": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLGAAA=",
+      "parentFolderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AAAAAAEIAAA="
+    },
+    {
+      "name": "009-google-cloud",
+      "id": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLKAAA=",
+      "parentFolderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AAAAAAEIAAA="
+    },
+    {
+      "name": "009-lucidchart",
+      "id": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLLAAA=",
+      "parentFolderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AAAAAAEIAAA="
+    },
+    {
+      "name": "009-slack",
+      "id": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLEAAA=",
+      "parentFolderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AAAAAAEIAAA="
+    },
+    {
+      "name": "0003-dlms",
+      "id": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AAADr0LOAAA=",
+      "parentFolderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AAAAAAEMAAA="
+    },
+    {
+      "name": "0009-insurance",
+      "id": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AAADr0LPAAA=",
+      "parentFolderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AAAAAAEMAAA="
+    },
+    {
+      "name": "000-perm",
+      "id": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AAAHQIkCAAA=",
+      "parentFolderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AAAAAAEMAAA="
+    },
+    {
+      "name": "009-attlassian-confluence",
+      "id": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADONHhjAAA=",
+      "parentFolderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AAAAAAEMAAA="
+    },
+    {
+      "name": "009-aws",
+      "id": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADONHhiAAA=",
+      "parentFolderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AAAAAAEMAAA="
+    },
+    {
+      "name": "009-github-actions",
+      "id": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADONHhgAAA=",
+      "parentFolderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AAAAAAEMAAA="
+    },
+    {
+      "name": "000-deviceniq",
+      "id": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLNAAA=",
+      "parentFolderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AAAAAAEMAAA="
+    },
+    {
+      "name": "000-proterra",
+      "id": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLOAAA=",
+      "parentFolderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AAAAAAEMAAA="
+    },
+    {
+      "name": "009-utility",
+      "id": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLPAAA=",
+      "parentFolderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AAAAAAEMAAA="
+    }
+  ],
+  "rules": [
+    {
+      "id": "AQAAANPKp90=",
+      "displayName": "000-deviceniq",
+      "sequence": 1,
+      "isEnabled": true,
+      "conditions": {
+        "fromAddresses": [
+          {
+            "emailAddress": {
+              "name": "manchana.ramakrishna@deviceniq.com",
+              "address": "manchana.ramakrishna@deviceniq.com"
+            }
+          },
+          {
+            "emailAddress": {
+              "name": "manchana.veda@deviceniq.com",
+              "address": "manchana.veda@deviceniq.com"
+            }
+          },
+          {
+            "emailAddress": {
+              "name": "rmanchana@proterra.com",
+              "address": "rmanchana@proterra.com"
+            }
+          }
+        ]
+      },
+      "actions": {
+        "moveToFolder": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLNAAA=",
+        "stopProcessingRules": true
+      }
+    },
+    {
+      "id": "AQAAANPKp94=",
+      "displayName": "000-proterra",
+      "sequence": 2,
+      "isEnabled": true,
+      "conditions": {
+        "senderContains": [
+          "@PROTERRA.COM"
+        ],
+        "fromAddresses": [
+          {
+            "emailAddress": {
+              "name": "skarri@proterra.com",
+              "address": "skarri@proterra.com"
+            }
+          },
+          {
+            "emailAddress": {
+              "name": "stina.brock@gmail.com",
+              "address": "stina.brock@gmail.com"
+            }
+          },
+          {
+            "emailAddress": {
+              "name": "suresh.k.karri@gmail.com",
+              "address": "suresh.k.karri@gmail.com"
+            }
+          }
+        ]
+      },
+      "actions": {
+        "moveToFolder": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLOAAA=",
+        "stopProcessingRules": true
+      }
+    },
+    {
+      "id": "AQAAANPKp98=",
+      "displayName": "009-utility",
+      "sequence": 3,
+      "isEnabled": true,
+      "conditions": {
+        "senderContains": [
+          "VERIFICATIONEMAIL.COM",
+          "MSSECURITY-NOREPLY@MICROSOFT.COM"
+        ],
+        "fromAddresses": [
+          {
+            "emailAddress": {
+              "name": "no-reply@verificationemail.com",
+              "address": "no-reply@verificationemail.com"
+            }
+          },
+          {
+            "emailAddress": {
+              "name": "mssecurity-noreply@microsoft.com",
+              "address": "mssecurity-noreply@microsoft.com"
+            }
+          }
+        ]
+      },
+      "actions": {
+        "moveToFolder": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLPAAA=",
+        "stopProcessingRules": true
+      }
+    },
+    {
+      "id": "AQAAANPKp_A=",
+      "displayName": "009-slack",
+      "sequence": 4,
+      "isEnabled": true,
+      "conditions": {
+        "senderContains": [
+          "SLACK.COM"
+        ]
+      },
+      "actions": {
+        "moveToFolder": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLEAAA=",
+        "stopProcessingRules": true
+      }
+    },
+    {
+      "id": "AQAAANPKp_E=",
+      "displayName": "009-figma",
+      "sequence": 5,
+      "isEnabled": true,
+      "conditions": {
+        "senderContains": [
+          "FIGMA.COM"
+        ]
+      },
+      "actions": {
+        "moveToFolder": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLFAAA=",
+        "stopProcessingRules": true
+      }
+    },
+    {
+      "id": "AQAAANPKp_I=",
+      "displayName": "009-godaddy",
+      "sequence": 6,
+      "isEnabled": true,
+      "conditions": {
+        "senderContains": [
+          "GODADDY.COM"
+        ]
+      },
+      "actions": {
+        "moveToFolder": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLGAAA=",
+        "stopProcessingRules": true
+      }
+    },
+    {
+      "id": "AQAAANPKp_M=",
+      "displayName": "009-atlassian",
+      "sequence": 7,
+      "isEnabled": true,
+      "conditions": {
+        "senderContains": [
+          "ATLASSIAN.NET",
+          "ATLASSIAN.COM"
+        ]
+      },
+      "actions": {
+        "moveToFolder": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLHAAA=",
+        "stopProcessingRules": true
+      }
+    },
+    {
+      "id": "AQAAANPKp_Q=",
+      "displayName": "009-aws",
+      "sequence": 8,
+      "isEnabled": true,
+      "conditions": {
+        "senderContains": [
+          "AMAZONAWS.COM",
+          "AWS.AMAZON",
+          "HEALTH@AWS.COM",
+          "NO-REPLY-AWS@AMAZON.COM",
+          "REGISTRAR.AMAZON",
+          "BOUNCES.AMAZON.COM"
+        ]
+      },
+      "actions": {
+        "moveToFolder": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADONHhiAAA=",
+        "stopProcessingRules": true
+      }
+    },
+    {
+      "id": "AQAAANPKp_U=",
+      "displayName": "009-github",
+      "sequence": 9,
+      "isEnabled": true,
+      "conditions": {
+        "senderContains": [
+          "GITHUB.COM"
+        ]
+      },
+      "actions": {
+        "moveToFolder": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADONHhgAAA=",
+        "stopProcessingRules": true
+      }
+    },
+    {
+      "id": "AQAAANPKp_Y=",
+      "displayName": "009-google-cloud",
+      "sequence": 10,
+      "isEnabled": true,
+      "conditions": {
+        "senderContains": [
+          "GOOGLECLOUD.COM",
+          "CLOUD.GOOGLE.COM",
+          "GOOGLE-WORKSPACE-ALERTS",
+          "ACCOUNTS.GOOGLE.COM",
+          "GCP-NOREPLY",
+          "NOTIFY-NOREPLY@GOOGLE.COM"
+        ]
+      },
+      "actions": {
+        "moveToFolder": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLKAAA=",
+        "stopProcessingRules": true
+      }
+    },
+    {
+      "id": "AQAAANPKp_c=",
+      "displayName": "009-lucidchart",
+      "sequence": 11,
+      "isEnabled": true,
+      "conditions": {
+        "senderContains": [
+          "LUCIDCHART.COM",
+          "LUCID.CO"
+        ]
+      },
+      "actions": {
+        "moveToFolder": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLLAAA=",
+        "stopProcessingRules": true
+      }
+    },
+    {
+      "id": "AQAAANPKp_g=",
+      "displayName": "009-azure",
+      "sequence": 12,
+      "isEnabled": true,
+      "conditions": {
+        "senderContains": [
+          "AZURE.MICROSOFT.COM",
+          "MICROSOFTAZURE.COM",
+          "ACCOUNTPROTECTION.MICROSOFT.COM",
+          "O365MC@MICROSOFT.COM",
+          "INFORMATION.MICROSOFT.COM"
+        ]
+      },
+      "actions": {
+        "moveToFolder": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLMAAA=",
+        "stopProcessingRules": true
+      }
+    },
+    {
+      "id": "AQAAANPKp_k=",
+      "displayName": "0003-dlms",
+      "sequence": 13,
+      "isEnabled": true,
+      "conditions": {
+        "senderContains": [
+          "DLMS",
+          "INNOMINDS.COM"
+        ]
+      },
+      "actions": {
+        "moveToFolder": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AAADr0LOAAA=",
+        "stopProcessingRules": true
+      }
+    },
+    {
+      "id": "AQAAANPKp_o=",
+      "displayName": "0009-insurance",
+      "sequence": 14,
+      "isEnabled": true,
+      "conditions": {
+        "senderContains": [
+          "INSURANCE",
+          "FMR.COM",
+          "VSP.COM"
+        ]
+      },
+      "actions": {
+        "moveToFolder": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AAADr0LPAAA=",
+        "stopProcessingRules": true
+      }
+    }
+  ],
+  "moveSummary": [
+    {
+      "label": "000-deviceniq",
+      "found": 54,
+      "moved": 54
+    },
+    {
+      "label": "000-proterra",
+      "found": 17,
+      "moved": 17
+    },
+    {
+      "label": "009-utility",
+      "found": 5,
+      "moved": 5
+    },
+    {
+      "label": "009-slack",
+      "found": 4,
+      "moved": 4
+    },
+    {
+      "label": "009-figma",
+      "found": 34,
+      "moved": 34
+    },
+    {
+      "label": "009-godaddy",
+      "found": 11,
+      "moved": 11
+    },
+    {
+      "label": "009-atlassian",
+      "found": 45,
+      "moved": 45
+    },
+    {
+      "label": "009-aws",
+      "found": 81,
+      "moved": 81
+    },
+    {
+      "label": "009-github",
+      "found": 275,
+      "moved": 275
+    },
+    {
+      "label": "009-google-cloud",
+      "found": 4,
+      "moved": 4
+    },
+    {
+      "label": "009-lucidchart",
+      "found": 3,
+      "moved": 3
+    },
+    {
+      "label": "009-azure",
+      "found": 0,
+      "moved": 0
+    },
+    {
+      "label": "0003-dlms",
+      "found": 2,
+      "moved": 2
+    },
+    {
+      "label": "0009-insurance",
+      "found": 7,
+      "moved": 7
+    }
+  ],
+  "ruleResults": [
+    {
+      "name": "000-deviceniq",
+      "status": "created",
+      "folderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLNAAA="
+    },
+    {
+      "name": "000-proterra",
+      "status": "created",
+      "folderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLOAAA="
+    },
+    {
+      "name": "009-utility",
+      "status": "created",
+      "folderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLPAAA="
+    },
+    {
+      "name": "009-slack",
+      "status": "replaced",
+      "folderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLEAAA="
+    },
+    {
+      "name": "009-figma",
+      "status": "replaced",
+      "folderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLFAAA="
+    },
+    {
+      "name": "009-godaddy",
+      "status": "replaced",
+      "folderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLGAAA="
+    },
+    {
+      "name": "009-atlassian",
+      "status": "replaced",
+      "folderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLHAAA="
+    },
+    {
+      "name": "009-aws",
+      "status": "replaced",
+      "folderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADONHhiAAA="
+    },
+    {
+      "name": "009-github",
+      "status": "replaced",
+      "folderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADONHhgAAA="
+    },
+    {
+      "name": "009-google-cloud",
+      "status": "replaced",
+      "folderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLKAAA="
+    },
+    {
+      "name": "009-lucidchart",
+      "status": "replaced",
+      "folderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLLAAA="
+    },
+    {
+      "name": "009-azure",
+      "status": "replaced",
+      "folderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AADTycLMAAA="
+    },
+    {
+      "name": "0003-dlms",
+      "status": "replaced",
+      "folderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AAADr0LOAAA="
+    },
+    {
+      "name": "0009-insurance",
+      "status": "replaced",
+      "folderId": "AAMkADRkMjcxNzQ0LWEwN2YtNGI0OS1iNmVlLTU5YWQyYWRjYTdhMwAuAAAAAADCETwbuF8YRYS6CyKSJ6VXAQAGYPWFlkhCRayoM5ScG2h_AAADr0LPAAA="
+    }
+  ]
+}
