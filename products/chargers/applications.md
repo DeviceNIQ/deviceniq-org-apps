@@ -150,7 +150,8 @@ Not customer-facing product applications — used to run and test the stack.
 
 | Tool | URL | Purpose |
 |------|-----|---------|
-| **OCPP simulator** | [simulator.deviceniq.com](https://simulator.deviceniq.com) | QA / demo charge points |
+| **OCPP simulator** | [simulator.chargers.deviceniq.com](https://simulator.chargers.deviceniq.com) | QA / demo charge points |
+| **SteVe CSMS** | [steve.chargers.deviceniq.com](https://steve.chargers.deviceniq.com) | Legacy OCPP admin |
 | **OCPP runtime** | EKS (`Prod2-OCPP`, `ng-ocpp-adapter`, DynamoDB) | Live WebSocket sessions — **existing platform, do not rebuild** |
 | **MLflow** | VPN tool host | Model registry for session/energy predict |
 

@@ -28,7 +28,8 @@ Chargers is a **suite** of applications — not a single UI:
 | **Operational — chat** | `chat.app.chargers.deviceniq.com` | ALB 3 | **Shipped** |
 | **Operational — support** | `support.app.chargers.deviceniq.com` | ALB 3 | **Shipped** |
 | **DeviceNIQ Chargers Onboarding** (internal) | `onboarding.chargers.deviceniq.com` | ALB 1 (VPN) | **MVP** — [deviceniq-chargers-onboarding](https://github.com/DeviceNIQ/deviceniq-chargers-onboarding) |
-| OCPP simulator | [simulator.deviceniq.com](https://simulator.deviceniq.com) | Platform | **Exists** |
+| OCPP simulator | [simulator.chargers.deviceniq.com](https://simulator.chargers.deviceniq.com) | Platform | **Exists** |
+| SteVe CSMS | [steve.chargers.deviceniq.com](https://steve.chargers.deviceniq.com) | Platform | **Exists** |
 
 Full breakdown: **[applications.md](applications.md)**
 
