@@ -4,7 +4,7 @@ DeviceNIQ Chargers is **not one monolithic app**. It is a **product suite** of s
 
 | Application class | Who uses it | Network | ALB | Status |
 |-------------------|-------------|---------|-----|--------|
-| **Onboarding** | Internal DeviceNIQ ops (`chargers-admin`) | **VPN required** | ALB 1 | **MVP** — [deviceniq-chargers-onboarding](https://github.com/DeviceNIQ/deviceniq-chargers-onboarding) |
+| **DeviceNIQ Chargers Onboarding** | Internal DeviceNIQ ops (`chargers-admin`) | **VPN required** | ALB 1 | **MVP** — [deviceniq-chargers-onboarding](https://github.com/DeviceNIQ/deviceniq-chargers-onboarding) |
 | **Operational** | Fleet owners, operators, viewers (customers) | Public internet | ALB 3 | **Shipped** |
 | **Platform tools** | Engineering / QA | Mixed | Platform | Partial |
 
@@ -14,7 +14,7 @@ Engineering plans: [013 internal onboarding](https://github.com/DeviceNIQ/device
 
 ---
 
-## 1. Onboarding application (internal)
+## 1. DeviceNIQ Chargers Onboarding (internal)
 
 ChargePoint-class **customer, site, and charger provisioning** before anything is visible on the public internet.
 

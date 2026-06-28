@@ -15,7 +15,7 @@ Chargers is a **suite** of applications — not a single UI:
 
 | Class | Apps | Doc |
 |-------|------|-----|
-| **Onboarding** (internal, VPN) | `onboarding` microapp + API | [applications.md](applications.md) §1 |
+| **DeviceNIQ Chargers Onboarding** (internal, VPN) | `onboarding` microapp + API | [applications.md](applications.md) §1 |
 | **Operational** (public, end user) | `chargers`, `sessions`, `chat`, `support` | [applications.md](applications.md) §2 |
 | **Platform** | OCPP simulator, runtime stack | [applications.md](applications.md) §3 |
 
@@ -27,7 +27,7 @@ Chargers is a **suite** of applications — not a single UI:
 | **Operational — sessions** | [sessions.app.chargers.deviceniq.com](https://sessions.app.chargers.deviceniq.com) | ALB 3 | **Shipped** |
 | **Operational — chat** | `chat.app.chargers.deviceniq.com` | ALB 3 | **Shipped** |
 | **Operational — support** | `support.app.chargers.deviceniq.com` | ALB 3 | **Shipped** |
-| **Onboarding** (internal) | `onboarding.chargers.deviceniq.com` | ALB 1 (VPN) | **MVP** — [deviceniq-chargers-onboarding](https://github.com/DeviceNIQ/deviceniq-chargers-onboarding) |
+| **DeviceNIQ Chargers Onboarding** (internal) | `onboarding.chargers.deviceniq.com` | ALB 1 (VPN) | **MVP** — [deviceniq-chargers-onboarding](https://github.com/DeviceNIQ/deviceniq-chargers-onboarding) |
 | OCPP simulator | [simulator.deviceniq.com](https://simulator.deviceniq.com) | Platform | **Exists** |
 
 Full breakdown: **[applications.md](applications.md)**
