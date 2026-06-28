@@ -84,6 +84,8 @@ See [office365 identity](../../apps/office365/identity/users.md) for tenant admi
 
 ## 6. ChargePoint mapping
 
+Full table (onboarding entities, operational tabs, CSMS, RC-001…RC-005): **[chargepoint-parity.md](chargepoint-parity.md)**
+
 | ChargePoint | DeviceNIQ |
 |-------------|-----------|
 | Network manager | `chargers-admin` + `onboarding:*` |

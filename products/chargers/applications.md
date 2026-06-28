@@ -136,8 +136,9 @@ Details: [roles.md](roles.md) · [users.md](users.md) · [assignments.md](assign
 | Chat assistant | Shipped | Onboarding tools blocked for public roles |
 | DataOps / lake export | Shipped | Session analytics pipeline |
 | Org-scoped fleet | Planned | Post-commission filter per org |
-| Live status from OCPP | Partial | Legacy stack; bridge in progress |
-| Remote start/stop | Not yet | Needs OCPP command path |
+| Live status from OCPP | Partial | EventBridge + presence (017–019); UI badge **RC-002** |
+| Remote start/stop | Not yet | **RC-001** — [chargepoint-parity.md](chargepoint-parity.md) |
+| Connection / IdTag / firmware UI | Not yet | **RC-002–RC-004** |
 | Billing / payments | Out of scope | Phase 5+ |
 
 **Not in operational UI:** org approval queues, install jobs, document upload, commission workflow (those stay in **onboarding**).
@@ -201,6 +202,7 @@ Full state machines: [lifecycles.md](lifecycles.md)
 
 | Doc | Purpose |
 |-----|---------|
+| [chargepoint-parity.md](chargepoint-parity.md) | **Master** ChargePoint comparison (onboarding + operational + CSMS) |
 | [product-information.md](product-information.md) | vs ChargePoint, roadmap |
 | [roles.md](roles.md) | Cognito + onboarding permissions |
 | [platform-and-vendors.md](platform-and-vendors.md) | AWS, Cognito, OCPP vendors |

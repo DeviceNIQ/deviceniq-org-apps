@@ -62,6 +62,10 @@ Full breakdown: **[applications.md](applications.md)**
 |------|-------|
 | [014 onboarding → operational](https://github.com/DeviceNIQ/deviceniq-cursor-workspace/blob/main/implementationPlans/014-chargers-onboarding-to-operational-landscape.md) | Two apps + OCPP landscape |
 | [013 internal onboarding](https://github.com/DeviceNIQ/deviceniq-cursor-workspace/blob/main/implementationPlans/013-chargers-internal-onboarding-portal.md) | ChargePoint-class entities + schema |
+| [chargepoint-parity.md](chargepoint-parity.md) | **ChargePoint parity** — onboarding + operational + CSMS |
+| [019 CP roadmap](https://github.com/DeviceNIQ/deviceniq-cursor-workspace/blob/main/implementationPlans/019-operational-chargepoint-roadmap.md) | RC-001…RC-005 operational ↔ charge point |
+| [chargepoint-parity](https://github.com/DeviceNIQ/deviceniq-cursor-workspace/blob/main/docs/chargepoint-parity.md) | **Master** ChargePoint scorecard (onboarding + operational) |
+| [019 CP roadmap](https://github.com/DeviceNIQ/deviceniq-cursor-workspace/blob/main/implementationPlans/019-operational-chargepoint-roadmap.md) | RC-001…RC-005 vs ChargePoint |
 | [009 personas MCP](https://github.com/DeviceNIQ/deviceniq-cursor-workspace/blob/main/implementationPlans/009-chargers-product-personas-mcp.md) | Cursor MCP for RBAC planning |
 
 ## MCP (Cursor)

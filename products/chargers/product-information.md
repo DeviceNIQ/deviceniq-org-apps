@@ -2,7 +2,8 @@
 
 **Product:** DeviceNIQ Chargers  
 **Market:** Fleet operators, workplace/home multi-user charging, platform owners  
-**Benchmark:** [ChargePoint](https://www.chargepoint.com/) fleet / station management (account → site → station → connector → driver)
+**Benchmark:** [ChargePoint](https://www.chargepoint.com/) fleet / station management (account → site → station → connector → driver)  
+**Full parity scorecard:** [chargepoint-parity.md](chargepoint-parity.md) · [cursor-workspace canonical](https://github.com/DeviceNIQ/deviceniq-cursor-workspace/blob/main/docs/chargepoint-parity.md)
 
 ---
 
@@ -47,7 +48,7 @@ flowchart LR
 | Station hardware registry | ✓ | ✓ Model catalog, serial, connectors | Fleet list | Connector-level detail |
 | Installation workflow | ✓ | ✓ Jobs, partners, checklist | — | Commission gate |
 | Documents (permits, photos) | ✓ | ✓ S3-backed | — | Data lake path |
-| OCPP / network profile | ✓ Built-in | ✓ Metadata → **existing OCPP stack** | Live status (partial) | Reuse Prod2-OCPP, no rebuild |
+| OCPP / network profile | ✓ Built-in | ✓ Metadata + **AWS OCPP** (`ocpp.chargers.deviceniq.com`) | Live status via EventBridge (partial UI) | Plan 017 gateway; UI **RC-002** |
 | Driver / RFID (IdTag) | ✓ | ✓ Phase 3 | Future ops | OCPP authorize bridge |
 | Tariffs / pricing | ✓ | ✓ Phase 3 | Future billing | — |
 | Live sessions | ✓ | — | ✓ Shipped | — |
@@ -59,7 +60,8 @@ flowchart LR
 | Roaming / eMSP | ✓ | Future | Future | Roadmap |
 | Payments | ✓ | Phase 5+ | Phase 5+ | Out of scope v1 |
 
-**Positioning:** Match or exceed ChargePoint on **entity model and commissioning**; **beat** ChargePoint on **operational intelligence** (ML, lake, chat).
+**Positioning:** Match or exceed ChargePoint on **entity model and commissioning**; **beat** ChargePoint on **operational intelligence** (ML, lake, chat).  
+**Gap closure:** operational CP features **RC-001…RC-005** — [chargepoint-parity.md](chargepoint-parity.md) · [019 roadmap](https://github.com/DeviceNIQ/deviceniq-cursor-workspace/blob/main/implementationPlans/019-operational-chargepoint-roadmap.md)
 
 ---
 
