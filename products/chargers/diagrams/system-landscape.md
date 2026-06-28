@@ -56,7 +56,7 @@ flowchart TB
 
 | Component | Hostname pattern | ALB | Auth |
 |-----------|------------------|-----|------|
-| Onboarding UI | `onboarding.app.chargers.deviceniq.com` | 1 | Cognito + VPN |
+| Onboarding UI | `onboarding.chargers.deviceniq.com` | 1 | Cognito + VPN |
 | Onboarding API | `onboarding.api.chargers.deviceniq.com` | 1 | JWT + onboarding perms |
 | Public UI | `chargers.deviceniq.com`, `*.app.chargers.*` | CF + 3 | Cognito |
 | Public API | `*.api.chargers.deviceniq.com` | 3 | Cognito JWT |

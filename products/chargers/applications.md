@@ -4,7 +4,7 @@ DeviceNIQ Chargers is **not one monolithic app**. It is a **product suite** of s
 
 | Application class | Who uses it | Network | ALB | Status |
 |-------------------|-------------|---------|-----|--------|
-| **Onboarding** | Internal DeviceNIQ ops (`chargers-admin`) | **VPN required** | ALB 1 | **Planned** |
+| **Onboarding** | Internal DeviceNIQ ops (`chargers-admin`) | **VPN required** | ALB 1 | **MVP** — [deviceniq-chargers-onboarding](https://github.com/DeviceNIQ/deviceniq-chargers-onboarding) |
 | **Operational** | Fleet owners, operators, viewers (customers) | Public internet | ALB 3 | **Shipped** |
 | **Platform tools** | Engineering / QA | Mixed | Platform | Partial |
 
@@ -22,12 +22,21 @@ ChargePoint-class **customer, site, and charger provisioning** before anything i
 
 | Item | Value |
 |------|-------|
-| **UI** | `https://onboarding.app.chargers.deviceniq.com` |
+| **UI** | `https://onboarding.chargers.deviceniq.com` |
 | **API** | `https://onboarding.api.chargers.deviceniq.com` |
 | **Organizations API** | `https://organizations.api.chargers.deviceniq.com` *(or nested under onboarding)* |
 | **Edge** | ALB 1 — VPN-restricted (`prod-shared-alb`) |
 | **Auth** | Cognito JWT — **`chargers-admin`** + `onboarding:*` permissions |
-| **Repo paths** | `000-microapps/onboarding/`, `001-microservices/onboarding/`, `001-microservices/organizations/` |
+| **Repo paths** | `000-microapps/onboarding/`, `001-microservices/onboarding/` in **deviceniq-chargers-onboarding** |
+
+### Critical features (vs ChargePoint)
+
+| Feature | Description |
+|---------|-------------|
+| **Unified audit timeline** | `onboarding_events` — every org/site/charger change with actor + timestamp; shown in UI sidebar |
+| **Approval queues + KPIs** | Dashboard counts for pending customers/chargers; one-click submit/approve |
+| **Commission readiness gate** | Checklist blocks commission until org approved, site, serial, connector, charger approval |
+
 
 Connect **Nord VPN** (DeviceNIQ static IP) before opening the UI. Do **not** publish onboarding hostnames on ALB 3.
 

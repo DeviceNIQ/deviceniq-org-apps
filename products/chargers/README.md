@@ -2,7 +2,7 @@
 
 **Folder:** `products/chargers/`  
 **Type:** Custom-built EV charging platform (monorepo + platform OCPP stack)  
-**GitHub:** [DeviceNIQ/deviceniq-chargers](https://github.com/DeviceNIQ/deviceniq-chargers)  
+**GitHub:** [DeviceNIQ/deviceniq-chargers](https://github.com/DeviceNIQ/deviceniq-chargers) (operational) · [DeviceNIQ/deviceniq-chargers-onboarding](https://github.com/DeviceNIQ/deviceniq-chargers-onboarding) (internal onboarding)  
 **My Apps tile (target):** DeviceNIQ Chargers — homepage → this README
 
 ## One-line pitch
@@ -27,7 +27,7 @@ Chargers is a **suite** of applications — not a single UI:
 | **Operational — sessions** | [sessions.app.chargers.deviceniq.com](https://sessions.app.chargers.deviceniq.com) | ALB 3 | **Shipped** |
 | **Operational — chat** | `chat.app.chargers.deviceniq.com` | ALB 3 | **Shipped** |
 | **Operational — support** | `support.app.chargers.deviceniq.com` | ALB 3 | **Shipped** |
-| **Onboarding** (internal) | `onboarding.app.chargers.deviceniq.com` | ALB 1 (VPN) | **Planned** ([013](https://github.com/DeviceNIQ/deviceniq-cursor-workspace/blob/main/implementationPlans/013-chargers-internal-onboarding-portal.md)) |
+| **Onboarding** (internal) | `onboarding.chargers.deviceniq.com` | ALB 1 (VPN) | **MVP** — [deviceniq-chargers-onboarding](https://github.com/DeviceNIQ/deviceniq-chargers-onboarding) |
 | OCPP simulator | [simulator.deviceniq.com](https://simulator.deviceniq.com) | Platform | **Exists** |
 
 Full breakdown: **[applications.md](applications.md)**
@@ -45,6 +45,7 @@ Full breakdown: **[applications.md](applications.md)**
 | Doc | Purpose |
 |-----|---------|
 | [applications.md](applications.md) | **Onboarding vs operational apps** — URLs, modules, roles, handoff |
+| [onboarding-repo.md](onboarding-repo.md) | Internal onboarding repo, features, user matrix |
 | [product-information.md](product-information.md) | Capabilities vs ChargePoint, roadmap, differentiation |
 | [actors-and-entities.md](actors-and-entities.md) | Actors, domain entities, associations |
 | [users.md](users.md) | Cognito users, types, lifecycle |
