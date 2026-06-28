@@ -2,9 +2,27 @@
 
 Rules apply to **Inbox** only. Each rule moves matching mail and stops further rules (`stopProcessingRules: true`).
 
-**Sequence:** lower number runs first. People rules (1–3) run before vendor rules.
+**Sequence:** lower number runs first. **000-self** (personal IDs) runs before people rules, then vendor rules.
 
 ## People & projects
+
+### 000-self → `Inbox/000-self`
+
+Mail sent **from** the mailbox owner’s **personal** email addresses (not work `@deviceniq.com` / `@proterra.com`).
+
+Configured in `scripts/mail-self-addresses.json`:
+
+| From (exact) | Notes |
+|--------------|-------|
+| `manchana.ramakrishna@gmail.com` | Primary personal Gmail |
+| `ramakrishna.manchana@gmail.com` | Alternate Gmail |
+| `rmanchana@gmail.com` | Alternate Gmail |
+| `manchana.ramakrishna@outlook.com` | Personal Microsoft |
+| `manchana.ramakrishna@hotmail.com` | Personal Microsoft |
+| `manchana.ramakrishna@live.com` | Personal Microsoft |
+| `manchana.ramakrishna@yahoo.com` | Personal Yahoo |
+
+Add more addresses in `scripts/mail-self-addresses.json`, then re-run `setup-o365-mail-org.ps1`.
 
 ### 000-deviceniq → `Inbox/000-deviceniq`
 
@@ -12,6 +30,7 @@ Rules apply to **Inbox** only. Each rule moves matching mail and stops further r
 |------------|-------|
 | From (exact) | `manchana.ramakrishna@deviceniq.com` |
 | From (exact) | `manchana.veda@deviceniq.com` |
+| From (exact) | `manchana.veda@gmail.com` (Veda personal Gmail) |
 | From (exact) | `rmanchana@proterra.com` (RamaKrishna legacy Proterra address) |
 
 ### 000-proterra → `Inbox/000-proterra`

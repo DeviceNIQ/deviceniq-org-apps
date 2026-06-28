@@ -13,7 +13,8 @@ Mailbox: `manchana.ramakrishna@deviceniq.com`
 
 | Folder | Purpose |
 |--------|---------|
-| **000-deviceniq** | Mail from RamaKrishna Manchana & Veda Manchana (DeviceNIQ) |
+| **000-self** | Mail **from RamaKrishna’s personal email IDs** (Gmail, Outlook personal, etc.) |
+| **000-deviceniq** | Mail from RamaKrishna Manchana & Veda Manchana (DeviceNIQ **work** addresses) |
 | **000-proterra** | Mail from Suresh Karri, Stina Brock, and `@proterra.com` |
 | **0003-dlms** | DLMS project (Innominds, DLMS threads) |
 | **0009-insurance** | Insurance / benefits (Fidelity `fmr.com`, VSP, etc.) |

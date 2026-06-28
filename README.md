@@ -30,6 +30,7 @@ See [catalog/my-apps-home.md](catalog/my-apps-home.md) and [catalog/role-model.m
 | **Figma** | [apps/figma](apps/figma/) | Figma | Vendor account |
 | **GoDaddy** | [apps/godaddy](apps/godaddy/) | GoDaddy / domains | Vendor account |
 | **diagrams.net** | [apps/diagrams-net](apps/diagrams-net/) | diagrams.net | SSO |
+| **DeviceNIQ Chargers** | [apps/chargers](apps/chargers/) | Custom app (Cognito prod) | Product docs + MCP |
 
 ## Tenant snapshot
 
@@ -48,7 +49,14 @@ powershell -File scripts\export-entra-catalog.ps1 deviceniq-org-apps\exports
 
 # Office 365 mail rules + export
 powershell -File scripts\setup-o365-mail-org.ps1
+
+# MCP setup for all org apps
+powershell -File scripts\setup-org-apps-mcp.ps1
 ```
+
+## MCP integration
+
+See [DeviceNIQ/deviceniq-cursor-workspace/docs/org-apps-mcp.md](https://github.com/DeviceNIQ/deviceniq-cursor-workspace/blob/main/docs/org-apps-mcp.md) for server mapping per app.
 
 ## Exports
 

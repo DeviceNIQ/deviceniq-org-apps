@@ -16,7 +16,8 @@ Group tiles on My Apps to match `deviceniq-org-apps`:
 | Collection | Apps |
 |------------|------|
 | **DeviceNIQ — Core** | Microsoft 365, Microsoft Azure, GitHub |
-| **DeviceNIQ — Engineering** | AWS, Atlassian, Google Cloud, Lucid, diagrams.net |
+| **DeviceNIQ — Products** | **DeviceNIQ Chargers** (custom), Lucid, diagrams.net |
+| **DeviceNIQ — Engineering** | AWS, Atlassian, Google Cloud |
 | **DeviceNIQ — Operations** | GoDaddy, Slack, Figma |
 
 Configure: Entra → **Identity** → **Applications** → **App launchers** → **Collections**.
@@ -35,6 +36,8 @@ From `/me/appRoleAssignments` export (RamaKrishna Manchana, 2026-06-27):
 | diagrams.net | Default access |
 | Graph Explorer | Default access |
 | MS 365 MCP Server | Default access |
+
+**Custom product:** [DeviceNIQ Chargers](../apps/chargers/README.md) — Cognito auth; docs in org-apps, code in `deviceniq-chargers`.
 
 Full export: [../exports/entra-catalog-export.json](../exports/entra-catalog-export.json)
 
