@@ -70,7 +70,7 @@ DeviceNIQ staff accessing **platform** to build/run chargers (not end-user app l
 
 | Display name | Entra UPN | Purpose | Related org-apps |
 |--------------|-----------|---------|------------------|
-| RamaKrishna Manchana | `manchana.ramakrishna@deviceniq.com` | Platform owner, deploy, admin | [aws](../aws/assignments.md), [github](../github/assignments.md), [azure](../azure/assignments.md) |
+| RamaKrishna Manchana | `manchana.ramakrishna@deviceniq.com` | Platform owner, deploy, admin | [aws](../../apps/aws/assignments.md), [github](../../apps/github/assignments.md), [azure](../../apps/azure/assignments.md) |
 | *(team)* | `@deviceniq.com` | Engineering | Per onboarding |
 
 ---

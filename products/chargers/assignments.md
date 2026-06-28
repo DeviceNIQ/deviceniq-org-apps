@@ -66,7 +66,7 @@ Onboarding (when enabled): `chargers-admin` also receives `onboarding:read`, `on
 |------|-----------|------------|------------------|-----------|-------------------|
 | RamaKrishna Manchana | `manchana.ramakrishna@deviceniq.com` | ✓ app role | Owner | Admin | Separate Cognito user (`ramakrishna.manchana@…`) |
 
-Cross-reference: [aws/assignments.md](../aws/assignments.md), [github/assignments.md](../github/assignments.md), [atlassian/assignments.md](../atlassian/assignments.md).
+Cross-reference: [aws/assignments.md](../../apps/aws/assignments.md), [github/assignments.md](../../apps/github/assignments.md), [atlassian/assignments.md](../../apps/atlassian/assignments.md).
 
 ---
 
@@ -112,7 +112,7 @@ powershell -File scripts\setup-chargers-product-mcp.ps1
 | Item | Value |
 |------|-------|
 | Enterprise app (target) | DeviceNIQ Chargers |
-| Homepage URL | `https://github.com/DeviceNIQ/deviceniq-org-apps/blob/main/apps/chargers/README.md` |
+| Homepage URL | `https://github.com/DeviceNIQ/deviceniq-org-apps/blob/main/products/chargers/README.md` |
 | Collection | DeviceNIQ — Products |
 
 End-user auth remains **Cognito**; Entra tile is documentation + engineering SSO hub.

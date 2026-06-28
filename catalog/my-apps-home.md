@@ -37,7 +37,7 @@ From `/me/appRoleAssignments` export (RamaKrishna Manchana, 2026-06-27):
 | Graph Explorer | Default access |
 | MS 365 MCP Server | Default access |
 
-**Custom product:** [DeviceNIQ Chargers](../apps/chargers/README.md) — Cognito auth; docs in org-apps, code in `deviceniq-chargers`.
+**Custom product:** [DeviceNIQ Chargers](../products/chargers/README.md) — Cognito auth; docs in org-apps, code in `deviceniq-chargers`.
 
 Full export: [../exports/entra-catalog-export.json](../exports/entra-catalog-export.json)
 
@@ -56,6 +56,7 @@ Per enterprise application in Entra:
 
 ## DeviceNIQ custom app pages
 
-Each folder under `apps/<name>/README.md` is the **canonical app page** content. Mirror key fields into Entra enterprise app **Properties** homepage URL pointing to:
+Each folder under `apps/<name>/README.md` or `products/<name>/README.md` is the **canonical app page** content. Mirror key fields into Entra enterprise app **Properties** homepage URL pointing to:
 
-`https://github.com/DeviceNIQ/deviceniq-org-apps/blob/main/apps/<name>/README.md`
+`https://github.com/DeviceNIQ/deviceniq-org-apps/blob/main/apps/<name>/README.md` (vendor apps)  
+`https://github.com/DeviceNIQ/deviceniq-org-apps/blob/main/products/<name>/README.md` (DeviceNIQ products)

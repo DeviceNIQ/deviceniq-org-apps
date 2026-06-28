@@ -1,6 +1,6 @@
 # DeviceNIQ Chargers (custom application)
 
-**App slug:** `chargers`  
+**Folder:** `products/chargers/`  
 **Type:** Custom-built EV charging platform (monorepo + platform OCPP stack)  
 **GitHub:** [DeviceNIQ/deviceniq-chargers](https://github.com/DeviceNIQ/deviceniq-chargers)  
 **My Apps tile (target):** DeviceNIQ Chargers — homepage → this README

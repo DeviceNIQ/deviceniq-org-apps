@@ -62,7 +62,7 @@ flowchart TB
 | Same VPC | — | ALB 1 onboarding (VPN) |
 | Root / mgmt | `aws-management` | Org-level DNS if needed |
 
-See [apps/aws/README.md](../aws/README.md).
+See [apps/aws/README.md](../../apps/aws/README.md).
 
 ## RDS
 
@@ -86,7 +86,7 @@ See [apps/aws/README.md](../aws/README.md).
 |------|-----------|
 | `deviceniq.com` | `chargers.deviceniq.com`, `*.app.chargers.deviceniq.com`, `*.api.chargers.deviceniq.com` |
 
-See [apps/godaddy/README.md](../godaddy/README.md).
+See [apps/godaddy/README.md](../../apps/godaddy/README.md).
 
 ## Related platform microservices (existing)
 

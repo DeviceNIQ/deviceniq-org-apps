@@ -78,7 +78,7 @@ Chargers **end users are not in Entra**. Engineering staff:
 | AWS `production-admin` | EKS, RDS deploy |
 | GitHub org Owner | `deviceniq-chargers` repo |
 
-See [office365 identity](../office365/identity/users.md) for tenant admins.
+See [office365 identity](../../apps/office365/identity/users.md) for tenant admins.
 
 ---
 
