@@ -9,14 +9,28 @@
 
 ChargePoint-class **fleet onboarding, commissioning, and operations** — with **session/energy ML**, **DataOps lake**, and **role-aware AI chat** that most CSMS vendors treat as afterthoughts.
 
-## Surfaces
+## Applications
+
+Chargers is a **suite** of applications — not a single UI:
+
+| Class | Apps | Doc |
+|-------|------|-----|
+| **Onboarding** (internal, VPN) | `onboarding` microapp + API | [applications.md](applications.md) §1 |
+| **Operational** (public, end user) | `chargers`, `sessions`, `chat`, `support` | [applications.md](applications.md) §2 |
+| **Platform** | OCPP simulator, runtime stack | [applications.md](applications.md) §3 |
+
+## Surfaces (quick reference)
 
 | Application | URL | Edge | Status |
 |-------------|-----|------|--------|
-| **Operational** (public) | [chargers.deviceniq.com](https://chargers.deviceniq.com) | ALB 3 + CloudFront | **Shipped** |
-| Sessions UI | [sessions.app.chargers.deviceniq.com](https://sessions.app.chargers.deviceniq.com) | ALB 3 | **Shipped** |
+| **Operational — fleet** | [chargers.deviceniq.com](https://chargers.deviceniq.com) | ALB 3 + CloudFront | **Shipped** |
+| **Operational — sessions** | [sessions.app.chargers.deviceniq.com](https://sessions.app.chargers.deviceniq.com) | ALB 3 | **Shipped** |
+| **Operational — chat** | `chat.app.chargers.deviceniq.com` | ALB 3 | **Shipped** |
+| **Operational — support** | `support.app.chargers.deviceniq.com` | ALB 3 | **Shipped** |
 | **Onboarding** (internal) | `onboarding.app.chargers.deviceniq.com` | ALB 1 (VPN) | **Planned** ([013](https://github.com/DeviceNIQ/deviceniq-cursor-workspace/blob/main/implementationPlans/013-chargers-internal-onboarding-portal.md)) |
 | OCPP simulator | [simulator.deviceniq.com](https://simulator.deviceniq.com) | Platform | **Exists** |
+
+Full breakdown: **[applications.md](applications.md)**
 
 ## APIs
 
@@ -30,6 +44,7 @@ ChargePoint-class **fleet onboarding, commissioning, and operations** — with *
 
 | Doc | Purpose |
 |-----|---------|
+| [applications.md](applications.md) | **Onboarding vs operational apps** — URLs, modules, roles, handoff |
 | [product-information.md](product-information.md) | Capabilities vs ChargePoint, roadmap, differentiation |
 | [actors-and-entities.md](actors-and-entities.md) | Actors, domain entities, associations |
 | [users.md](users.md) | Cognito users, types, lifecycle |

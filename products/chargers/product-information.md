@@ -65,6 +65,8 @@ flowchart LR
 
 ## 3. What we ship today vs building
 
+Application split (onboarding vs operational microapps, URLs, roles): **[applications.md](applications.md)**.
+
 ### Shipped (operational application)
 
 | Module | Type | Capability |
